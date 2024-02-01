@@ -13,7 +13,7 @@ pipeline {
       CENTRAL_REPO = 'vprofle-mavan-central'
       NEXUS_IP = '192.168.1.85'
       NEXUS_PORT = '8081'
-      NEXUS_GRP_REPO 'vprofile-maven-group'
+      NEXUS_GRP_REPO = 'vprofile-maven-group'
       NEXUS_LOGIN = 'nexuslogin'
     }
 
