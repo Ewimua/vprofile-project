@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         maven "MAVEN3"
-        jdk "opendk8"
+        jdk "openjdk8"
     }
 
     environment {
