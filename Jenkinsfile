@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         maven "MAVEN3"
-        jdk "openjdk8"
+        jdk "opendk8"
     }
 
     environment {
@@ -10,10 +10,10 @@ pipeline {
       NEXUS_USER = 'admin'
       NEXUS_PASS ='school1@12'
       RELEASE_REPO = 'vprofile-release' 
-      CENTRAL_REPO = 'vprofle-mavan-central'
-      NEXUS_IP = 'nexus.3etechsolution.com'
+      CENTRAL_REPO = 'vpro-maven-central'
+      NEXUS_IP = '192.168.1.55'
       NEXUS_PORT = '8081'
-      NEXUS_GRP_REPO = 'vprofile-maven-group'
+      NEXUS_GRP_REPO = 'vpro-maven-group'
       NEXUS_LOGIN = 'nexuslogin'
       SONARSERVER = 'sonarserver'
       SONARSCANNER = 'sonarscanner'
